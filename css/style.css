@@ -1,1 +1,128 @@
-#CSS
+/* CSS do site*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+}
+body {
+    background-color: #fcf9f9;
+}
+
+hr {
+    background: linear-gradient(10deg, transparent, rgb(252, 95, 4), transparent);
+    width: 100%;
+    height: 3px;
+    border: none;
+}
+h1 {
+    color: #ffffff;
+    font-size: 5rem;
+}
+h2 {
+    color: #ffffff;
+    font-size: 3rem;
+}
+h3 {
+    color: #ffffff;
+    font-size: 3rem;
+}
+h4 {
+    color: #ffffff;
+}
+
+#container p {
+    color: #ffffff;
+}
+
+button {
+    color: rgb(0, 0, 0);
+    width: 10vw;
+    height: 6vh;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+#menu {
+    margin: 0;
+    text-align: right;
+    border: 2px solid #000000;
+    box-shadow: 1px 1px 1px #000000;
+    background:linear-gradient(180deg, #2b2b2b, rgb(0, 0, 0), #000000);
+}
+
+#menu ul li {
+    display: inline-block;
+
+}
+#menu li {
+    padding: 1vw 1vh;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+#container {
+    border: 2px solid #000000;
+    box-shadow: 1px 1px 1px #000000;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+}
+
+
+.welcome {
+    width: auto;
+    height: 60vh;
+    padding: 10vh 10vw;
+}
+
+.development {
+    width: 100%;
+    height: 50vh;
+    padding: 10vh 10vw;
+}
+
+.photography {
+    width: 100%;
+    height: 50vh;
+    padding: 5vh 10vw;
+}
+
+.social {
+    width: 100%;
+    height: 10vh;
+    padding: 5vh 10vw;
+}
+.footer {
+    background-color: black;
+}
+p {
+    text-align: center;
+    color: white;
+}
+
+
+/* backgrounds  */
+
+.welcome {
+    background-image: url(../img/welcome-bg.png);
+    background-size: cover;
+    background-attachment: scroll;
+}
+.development {
+    background-image: url(../img/development-bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.photography {
+    background-image: url(../img/photo-bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.social {
+    background-image: url(../img/social-bg.png);
+    background-size: cover;
+    background-attachment: scroll;
+}
