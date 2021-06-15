@@ -12,7 +12,7 @@ body {
 hr {
     background: linear-gradient(10deg, transparent, rgb(252, 95, 4), transparent);
     width: 100%;
-    height: 3px;
+    height: 2px;
     border: none;
 }
 h1 {
@@ -29,10 +29,13 @@ h3 {
 }
 h4 {
     color: #ffffff;
+    font-size: 2rem;
 }
 
 #container p {
     color: #ffffff;
+    font-size: 1.2rem;
+    margin: 0;
 }
 
 button {
@@ -41,10 +44,13 @@ button {
     height: 6vh;
     border: 2px solid #000000;
     border-radius: 10px;
+    text-align: center;
+    position: relative;
+    top: 10vh;
 }
 
 #menu {
-    margin: 0;
+    margin: 0 auto;
     text-align: right;
     border: 2px solid #000000;
     box-shadow: 1px 1px 1px #000000;
@@ -56,9 +62,9 @@ button {
 
 }
 #menu li {
-    padding: 1vw 1vh;
+    padding: 1vw 2vh;
     border: 2px solid #000000;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #ffffff;
 }
 
@@ -92,15 +98,22 @@ button {
 
 .social {
     width: 100%;
-    height: 10vh;
+    height: 30vh;
     padding: 5vh 10vw;
 }
+
 .footer {
     background-color: black;
+    width: 100%;
+    height: 10vh;
 }
-p {
-    text-align: center;
+
+.footer p {
+    text-align:center;
     color: white;
+    font-size: 0.85rem;
+    position: relative;
+    top: 3vh;
 }
 
 
