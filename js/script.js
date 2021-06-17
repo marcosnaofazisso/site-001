@@ -1,1 +1,6 @@
-// Script do site
+
+function notReady() {
+    alert("Página em construção!");
+
+    
+}

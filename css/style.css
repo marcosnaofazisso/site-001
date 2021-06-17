@@ -143,7 +143,8 @@ button:hover {
     font-size: 1.2rem;
     margin: 0;
     margin-top: 0;
-    text-shadow: 5px 5px 5px #000000;
+    padding: 0.5em;
+    text-shadow: 2px 2px 2px #000000;
 }
 
 .welcome {
