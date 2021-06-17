@@ -1,4 +1,4 @@
-/* CSS do site*/
+
 * {
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
@@ -8,8 +8,9 @@ body {
     background-color: #000000;
 }
 
+/* ---------- header ----------*/ 
 .header {
-    background: linear-gradient(180deg, transparent 75%, rgba(255, 51, 0, 0.4));
+    background: linear-gradient(180deg, transparent 85%, rgba(255, 51, 0, 0.4));
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -17,9 +18,9 @@ body {
     justify-content: space-between;
     max-height: 7vh;
     align-content: center;
-
 }
 
+/* ---------- logo ----------*/ 
 .profile {
     max-width: 5rem;
     max-height: 5rem;
@@ -29,6 +30,7 @@ body {
     align-content: center;
 }
 
+/* ---------- menu ---------- */ 
 .menu {
     display: flex;
     margin-left: 30vw;
@@ -40,28 +42,45 @@ ul {
 
 .menu li {
     flex-wrap: wrap;
-    margin-left: 1rem;
+    margin-left: 0.10rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
     padding: 1vw 2vh;
-    border: 2px solid #000000;
-    border-radius: 1rem;
-    background-color: #ffffff;
 
 }
 .menu li a {
-    color: rgb(0, 0, 0);
+    color: rgb(198, 118, 47);
     text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+    border: 3px solid rgb(235, 93, 28);
+    border-radius: 0.75em;
+    padding: 1em 1em;
+    background-color: rgb(0, 0, 0);
+
+    text-shadow: 
+    0 0 0.5em rgb(240, 29, 159), 
+    0 0 0.5em rgb(235, 93, 28);
+    box-shadow: 
+    inset 0 0 0.5em rgb(235, 93, 28),
+    0 0 0.5em rgb(235, 93, 28);
 }
 
+.menu li a:hover,
+.menu li a:focus {
+    background: rgb(235, 93, 28);
+    color:rgb(39, 39, 39);
+    font-weight: 700;
+    text-shadow: none;
+    box-shadow: 0 0 1em rgb(247, 92, 20);
+}
+/* ---------- fim do menu ---------- */  
 
 
 
 
 
-
-
-
+/* ---------- títulos e botões ---------- */ 
 hr {
     background: linear-gradient(10deg, transparent, rgb(252, 95, 4), transparent);
     width: 100%;
@@ -71,36 +90,45 @@ hr {
 h1 {
     color: #ffffff;
     font-size: 5rem;
-    text-shadow: 5px 5px 0.5px #fa6704;
+    text-shadow: 3px 2px 1px #fa6704;
 }
 h2 {
     color: #ffffff;
     font-size: 3rem;
-    text-shadow: 5px 5px 0.5px #fa6704;
+    text-shadow: 3px 2px 1px #fa6704;
 }
 h3 {
     color: #ffffff;
     font-size: 2rem;
-    text-shadow: 5px 5px 0.5px #fa6704;
+    text-shadow: 3px 2px 1px #fa6704;
 }
 
 
 button {
-    color: rgb(0, 0, 0);
+    color: rgb(198, 118, 47);
+    font-size: 1rem;
+    font-weight: bold;
     width: 10vw;
     height: 6vh;
-    border: 2px solid #000000;
-    border-radius: 10px;
+    border: 3px solid rgb(235, 93, 28);
+    border-radius: 0.75em;
     text-align: center;
     position: relative;
     top: 10vh;
+    background-color: rgb(0, 0, 0);
+}
+button:hover {
+    background: rgb(235, 93, 28);
+    color:rgb(39, 39, 39);
+    font-weight: 700;
+    text-shadow: none;
+    box-shadow: 0 0 1em rgb(247, 92, 20);
+
 }
 
 
 
-
-
-/* ---------------- Conteúdo ------------ */
+/* ---------------- conteúdo ------------ */
 
 #container {
     border: 2px solid #000000;
@@ -117,7 +145,6 @@ button {
     margin-top: 0;
     text-shadow: 5px 5px 5px #000000;
 }
-
 
 .welcome {
     width: auto;
@@ -156,11 +183,12 @@ button {
     display: flex;
     margin-top: 6vh;
     text-decoration: none;
-    text-shadow: 3px 3px 0.5px #fa6704;
-
-
+    text-shadow: 3px 2px 1px #fa6704;
 }
+/* ---------- fim do conteúdo ---------- */ 
 
+
+/* ---------- rodapé ---------- */ 
 .footer {
     background-color: black;
     width: 100%;
@@ -176,29 +204,7 @@ button {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* backgrounds  */
+/* ---------- backgrounds ----------*/
 
 .welcome {
     background-image: url(../img/welcome-bg.png);
