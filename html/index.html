@@ -7,47 +7,58 @@
     <title>Marcos Vinicius Ferreira</title>
     <link rel="stylesheet" href="../css/style.css" type="text/css">
     <script src="../js/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/bd9d4c327b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <section>
-        <div id="menu">
-            <header>
+        <div>
+            <header class="header">
+                <a href="#" class="logo"><img src="../img/profile.png" alt="profile" class="profile"></a>
                 <nav>
-                    <ul>
-                        <li class="select">Home</li>
-                        <li>Desenvolvimento</li>
-                        <li>Fotografia</li>
-                        <li>Sobre mim</li>
-                        <li>Contato</li>
+                    <ul class="menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Desenvolvimento</a></li>
+                        <li><a href="#">Fotografia</a></li>
+                        <li><a href="#">Sobre mim</a></li>
+                        <li><a href="#">Contato</a></li>
                     </ul>
                 </nav>
             </header>
         </div>
     </section>
-    <div id="container">
+    <section id="container">
         <div class="welcome">
             <h1>Welcome!</h1>
-            <p>It's nice to see you here!</p>
+            <p>É ótimo te ver por aqui! Se aprochegue</p>
             <button class="button" type="button">Let's go!</button>
         </div>
         <hr>
         <div class="development">
-            <h2>Development</h2>
-            <p>Check out some projects!</p>
+            <h2>Desenvolvimento</h2>
+            <p>Aqui estão alguns projetos que desenvolvi ao longo da minha jornada de aprendizado!</p>
             <button class="button" type="button">See more</button>
         </div>
         <hr>
         <div class="photography">
-            <h3>Photography</h3>
-            <p>Check out the series!</p>
+            <h2>Fotografia</h2>
+            <p>Clique abaixo para ver algumas das minhas fotografias mais recentes!</p>
             <button class="button" type="button">See more</button>
         </div>
         <hr>
         <div class="social">
-            <h4>Social Media</h4>
-            <p>~~ social media links ~~</p>
-        </div>
+            <h3>Contatos</h3>
+            <p>Será um prazer conversar contigo!</p>
+            <div class="social-items">
+                <a class="social-btn" href="mailto:marcosferreiraf22@gmail.com" target="_blank"><i
+                        class="fas fa-envelope-open-text"></i></a>
+                <a class="social-btn" href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a class="social-btn" href="https://www.linkedin.com/in/marcosvmferreira/" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+                <a class="social-btn" href="https://github.com/marcosnaofazisso" target="_blank"><i
+                        class="fab fa-github"></i></a>
+            </div>
+    </section>
     </div>
     <footer class="footer">
         <p>Desenvolvido por Marcos Vinicius Ferreira - Copyright &#169 2021</p>
